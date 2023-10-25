@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/admin.css' />
+  </head>
+  <body>
+    <h1>Welcome <%= user %> to product of <%= title %></h1>
+    <%- product_cells %>
+    <a href="/logout" class="header_logout">Logout</a>
+  </body>
+</html>

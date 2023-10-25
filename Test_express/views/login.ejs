@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/login.css' />
+    
+  </head>
+  <body>
+    <div class="login-container">
+    <h2>Welcome to login page</h2>
+    <form method="post" action="">  
+      <input type="text" placeholder="Enter Username" name="uname" required> <br/>
+      <input type="password" placeholder="Enter Password" name="pword" required>  <br/>
+      <button type="submit">Login</button> <br/>
+      <%- warn_message %>
+    </form>  
+    </div>
+  </body>
+</html>
